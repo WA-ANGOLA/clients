@@ -4,12 +4,12 @@
     <parent>
         <artifactId>sola-admin-clients</artifactId>
         <groupId>org.fao.sola.admin</groupId>
-        <version>1504a</version>
+        <version>0.1-1706</version>
     </parent>
     
     <groupId>org.fao.sola.admin.clients.web</groupId>
     <artifactId>sola-admin-clients-web</artifactId>
-    <version>1504a</version>
+    <version>0.1-1706</version>
     <packaging>war</packaging>
 
     <name>Clients Admin Web</name>

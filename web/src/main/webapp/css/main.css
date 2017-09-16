@@ -1,5 +1,5 @@
 /*
-DarkBlue #217c95
+DarkBlue #EF2900
 LightGrey #e6e7dd
 Green #87a968
 LightGreen #e6eddf
@@ -14,7 +14,7 @@ body{
 
 #PageHeaderCaption, #PageHeaderLogin {
     height: 60px;
-    background-color: #217c95;
+    background-color: #EF2900;
     font-family: Arial, sans-serif;
     padding-top: 20px;
     color: #fff;
@@ -23,8 +23,8 @@ body{
 
 #PageHeader{
     font: large arial;
-    height: 60px;
-    background-color: #217c95;
+    height: 70px;
+    background-color: #EF2900;
 }
 
 #PageHeaderCaption{
@@ -38,7 +38,7 @@ body{
     float: left; 
     width: 120px;
     line-height: 60px;
-    background-color: white; 
+    background-color: #EF2900; 
     text-align: center;    
 }
 
@@ -50,10 +50,10 @@ body{
 }
 
 .MainLogo{
-    width: 79px;
-    height: 58px;
+    width: 55px;
+    height: 67px;
     vertical-align: top;
-    background-color: #fff;
+    margin-top: 3px;
 }
 
 #LoginBox{
@@ -80,6 +80,7 @@ body{
     padding: 7px 15px 0px 15px;
     margin-top: 5px;
     font-size: 36px;
+    color: #217c95;
     /*background-color: #87a968;
     color: #fff;*/
 }
@@ -174,6 +175,8 @@ ul{
 .navbar{
     margin-bottom: 0px;
     border-radius: 0px;
+    background-color: #FFFF01;
+    background-image: none;
 }
 
 .alert{
