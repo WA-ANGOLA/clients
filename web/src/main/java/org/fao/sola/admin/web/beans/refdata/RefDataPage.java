@@ -37,6 +37,7 @@ import org.sola.admin.services.ejb.refdata.entities.FieldValueType;
 import org.sola.admin.services.ejb.refdata.entities.GenderType;
 import org.sola.admin.services.ejb.refdata.entities.HierarchyLevel;
 import org.sola.admin.services.ejb.refdata.entities.IdType;
+import org.sola.admin.services.ejb.refdata.entities.LandProject;
 import org.sola.admin.services.ejb.refdata.entities.LandUseType;
 import org.sola.admin.services.ejb.refdata.entities.MapLayerType;
 import org.sola.admin.services.ejb.refdata.entities.MortgageType;
@@ -228,7 +229,9 @@ public class RefDataPage extends AbstractBackingBean {
             refClass = NegotiateType.class;
         } else if (type.equalsIgnoreCase("NEGOTIATE_STATUS")){
             refClass = NegotiateStatus.class;
-        }      
+        } else if (type.equalsIgnoreCase("land_project")){
+            refClass = LandProject.class;
+        }
 
         itemsHeader = msgProvider.getMessage(headerPrefix + type.toUpperCase() + "S");
         itemHeader = msgProvider.getMessage(headerPrefix + type.toUpperCase());
